@@ -1,0 +1,9 @@
+# Directories
+/.ipynb_checkpoints/
+/metastore_db/ 
+
+# Dataset
+*.gz
+
+# Miscellaneous
+derby.log
