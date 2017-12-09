@@ -14,3 +14,8 @@ I followed [this](https://medium.com/@GalarnykMichael/install-spark-on-ubuntu-py
 * As opposed to using Anaconda distribution for Python, I went ahead with the installation which comes with Ubuntu. I am not a huge fan of *Anaconda* and prefer to install the Python libraries as and when required. 
 * I installed Spark 2.2.0.
 * Note that this version of Spark, does not work with Oracle Java 9. It works with Java 8. While installing Java, you'll be prompted to install version 9. DO NOT install 9. It took me quite some time to figure this out:-)  
+
+## Table of Contents
+1. Definition of an RDD and its creation from a file 
+2. RDD Basic Operations- Part I
+
