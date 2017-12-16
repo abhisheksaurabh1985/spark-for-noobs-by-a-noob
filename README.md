@@ -10,16 +10,15 @@ This tutorial is a work-in-progress for practising PySpark using Jupyter noteboo
 
 ### Thanks
 * Slides from Coursera lecture. Included in the repository.
-* A big thanks to [this](https://github.com/jadianes/spark-py-notebooks) tutorial which too was created with the same intent. It helped me a lot to understand the concepts by giving me something to play around with. 
+* A big thanks to [this](https://github.com/jadianes/spark-py-notebooks) tutorial which too was created with the same intent. It helped me a lot to understand the concepts by giving me something to build upon this tutorial. 
 * Thanks to numerous Quora users who explain the technical jargons in the most lucid terms. 
 
 ### Spark Installation Notes
 I followed [this](https://medium.com/@GalarnykMichael/install-spark-on-ubuntu-pyspark-231c45677de0) link to install Spark, with the following difference. 
 * As opposed to using Anaconda distribution for Python, I went ahead with the installation which comes with Ubuntu. I am not a huge fan of *Anaconda* and prefer to install the Python libraries as and when required. 
-* I installed Spark 2.2.0.
-* Note that this version of Spark, does not work with Oracle Java 9. It works with Java 8. While installing Java, you'll be prompted to install version 9. DO NOT install 9. It took me quite some time to figure this out:-)  
+* I installed Spark 2.2.0. Note that this version of Spark, does not work with Oracle Java 9. It works with Java 8. While installing Java, you'll be prompted to install version 9. DO NOT install 9. It took me quite some time to figure this out:-)  
 
 ### Table of Contents
 1. RDD: Definition its creation 
 2. RDD Basic Operations- Part I
-
+3. MapReduce using WordCount
