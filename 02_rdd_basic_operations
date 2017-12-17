@@ -260,10 +260,9 @@
    "metadata": {},
    "source": [
     "### The `collect` action\n",
-    "`collect` returns the elements of the dataset as an array back to the driver program.\n",
-    "<font color=blue>Driver program to be defined here. The idea isn't super clear to me yet. </font>. \n",
+    "`collect` returns the elements of the dataset as an array back to the driver program. The driver program AKA Spark Driver is a program running on the master node of the machine. It creates SparkContext, connected to a given Spark Master. It is the one responsible for declaring transformations and actions on RDDs. In our case, it's the PySpark console which is a driver program.  \n",
     "\n",
-    "Broadly speaking, this command helps us get all the RDD elements in the memory and work with them. Needless to say, for this reason, it should be used with caution particularly when working with large RDDs. "
+    "Broadly speaking, `collect` helps us get all the RDD elements in the memory and work with them. Needless to say, for this reason, it should be used with caution particularly when working with large RDDs. "
    ]
   },
   {
