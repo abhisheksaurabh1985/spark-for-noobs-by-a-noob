@@ -21,8 +21,8 @@ I followed [this](https://medium.com/@GalarnykMichael/install-spark-on-ubuntu-py
 ### Table of Contents
 | Topic  | Notebook | Content Description
 | ------------- | ------------- |------------- |
-| RDD: Definition and its creation  | [rdd_creation_from_file.ipynb](https://github.com/abhisheksaurabh1985/spark-for-noobs-by-a-noob/blob/master/rdd_creation_from_file.ipynb) | Definition of RDD- Types of Operations- _parallelize_ and _textFile_ method to create RDD|
-| RDD Basic Operations- Part I  | [rdd_basic_operations_1.ipynb](https://github.com/abhisheksaurabh1985/spark-for-noobs-by-a-noob/blob/master/rdd_basic_operations_1.ipynb) | Explanation of _immutability_ and _lazy evaluation_ - Example of a few basic transformations and actions|
-| WordCount in Spark  | [word_count_mapreduce.ipynb](https://github.com/abhisheksaurabh1985/spark-for-noobs-by-a-noob/blob/master/word_count_mapreduce.ipynb)  | Explanation of Spark transformations through WordCount example |
-| JOIN in Spark  | [join_in_spark.ipynb](https://github.com/abhisheksaurabh1985/spark-for-noobs-by-a-noob/blob/master/join_in_spark.ipynb) | Simple and Advanced JOIN through a Coursera assignment |
-| Handling Parquet files  | Content Cell  | TODO |
+| RDD: Definition and its creation  | [01_rdd_definition_and_creation.ipynb](https://github.com/abhisheksaurabh1985/spark-for-noobs-by-a-noob/blob/master/01_rdd_definition_and_creation.ipynb) | Definition of RDD- Types of Operations- _parallelize_ and _textFile_ method to create RDD|
+| RDD Basic Operations- Part I  | [02_rdd_basic_operations.ipynb](https://github.com/abhisheksaurabh1985/spark-for-noobs-by-a-noob/blob/master/02_rdd_basic_operations.ipynb) | Explanation of _immutability_ and _lazy evaluation_ - Example of a few basic transformations and actions|
+| WordCount in Spark  | [03_wordcount_mapreduce.ipynb](https://github.com/abhisheksaurabh1985/spark-for-noobs-by-a-noob/blob/master/03_wordcount_mapreduce.ipynb)  | Explanation of Spark transformations through WordCount example |
+| JOIN in Spark  | [04_join_in_spark.ipynb](https://github.com/abhisheksaurabh1985/spark-for-noobs-by-a-noob/blob/master/04_join_in_spark.ipynb) | Simple and Advanced JOIN through a Coursera assignment |
+| Handling Parquet files  | [05_parquet_file_basics.ipynb](https://github.com/abhisheksaurabh1985/spark-for-noobs-by-a-noob/blob/master/05_parquet_file_basics.ipynb)  | Work in-progress |
